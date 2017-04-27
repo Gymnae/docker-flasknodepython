@@ -5,10 +5,6 @@
 FROM gymnae/alpine-base:master
 MAINTAINER Gunnar Falk <docker@grundstil.de>
 
-ENV ANGULARPATH
-ENV PYTHONPATH
-ENV PYTHONAPP
-
 # add packages
 RUN apk-install \
 	nodejs \
