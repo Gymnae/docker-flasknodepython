@@ -16,4 +16,4 @@ CMD cd /home/angpynode/$ANGULARPATH && \
     
 # run python if pythonpath was supplied
 CMD cd /home/angpynode/$PYTHONPATH/ && \
-    python3 $PYTHONAPP
+    python3 $PYTHONAPP 
